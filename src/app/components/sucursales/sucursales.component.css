@@ -1,0 +1,120 @@
+
+.contenedor {
+    height: 27%;
+    position: absolute;
+    bottom: -50%;
+    background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=1060&t=st=1677616986~exp=1677617586~hmac=81e161489b3c829c04bdcf1517d495be0395f9140242266452e9530ee4832daf");
+}
+.location{
+    width: 100%;;
+    height: 100%;
+    position: absolute;
+    justify-content: space-between;
+    right: 0;
+}
+.location-text-container{
+    background: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+.location__span-1{
+    font-family: 'Tangerine', cursive;
+    color: #d8870c;
+    font-weight: 300;
+    font-size: 50px;
+}
+.location__p{
+    font-size: 15px !important;
+}
+.location__img{
+    width: 55%;
+    height: 100%;
+}
+/**Movil SM**/
+
+@media (max-width:424px){
+    .contenedor{
+        height: 50.90%;
+        bottom: -80%;
+    }
+    .location-text-container{
+        position: absolute;
+        height: 80%;
+        left: 20% !important;
+       }
+       .location__h1{
+        font-size: 3vw;
+       }
+       .location__span-1{
+        font-size: 140%;
+       }
+       .location__p{
+       font-size: 2.1vw !important;
+       }
+       .location__img{
+        width: 100%;
+       }
+       
+}
+/**Movil**/
+
+@media (max-width: 767px) and (min-width: 425px) {
+
+    .contenedor{
+        height: 50.90%;
+        bottom: -80%;
+    }
+    .location-text-container{
+    position: absolute;
+    height: 80%;
+    left: 20% !important;
+   }
+   .location__h1{
+    font-size: 3vw;
+   }
+   .location__span-1{
+    font-size: 140%;
+   }
+   .location__p{
+   font-size: 2.1vw !important;
+   }
+   .location__img{
+    width: 100%;
+   }
+}
+
+
+
+/**Tablet**/
+
+
+@media (min-width: 768px) and (max-width: 990px){
+   .location-text-container{
+    height: 70%;
+   }
+   .location__h1{
+    font-size: 120%;
+   }
+   .location__span-1{
+    font-size: 140%;
+   }
+   .location__p{
+   font-size: 75% !important;
+   }
+}
+/**Tablet & Laptop**/
+@media (min-width: 990px) and (max-width: 1249px){
+    .location-text-container{
+        height: 50%;
+       }
+       .location__h1{
+        font-size: 120%;
+       }
+       .location__span-1{
+        font-size: 140%;
+       }
+       .location__p{
+       font-size: 80% !important;
+       }
+}
