@@ -2,7 +2,7 @@
 
 .history{
     color: #fff;
-    bottom: 20%;
+    bottom: 10%;
     left: 45%;
     background: rgba(0, 0, 0, 0.6);
 }
@@ -11,47 +11,43 @@
     font-size: 200%;
     color: #F8A934;
     position: relative;
-    bottom: -20px;
+    bottom: -10px;
 }
   /**Movil SM**/
 
 @media (max-width:424px){
     .history {
-        bottom: 10%;
+        bottom: 25%;
         left: 25%;
-        height: 50vw;
+        height: 30%;
     }
     .history__h1-nro-1-span-1{
-        font-size: 8.5vw !important;
+        font-size: 80% !important;
         color: #F8A934;
         position: relative;
         bottom: -20px;
     }
-    .history__h1-nro-2{
-        font-size: 4vw !important
-    }
     .history__p{
-        font-size: 2vw;
+        font-size: 1.8vw;
+        
     }
 }
     /**Movil LG - MD**/
 
     @media (max-width: 767px) and (min-width: 425px){
     .history {
-        bottom: 10%;
+        bottom:20vw;
         left: 25%;
+        height: 50vw;
     }
     .history__h1-nro-1-span-1{
-        font-size: 6.5vw !important;
+        font-size: 2rem !important;
         color: #F8A934;
         position: relative;
-        bottom: -20px;
-    }
-    .history__h1-nro-2{
-        font-size: 4vw !important
+        bottom: -20px;;
     }
     .history__p{
-        font-size: 2vw;
+        font-size: 1.5vw !important;
     }
 }
 
@@ -59,6 +55,9 @@
 
 @media (min-width: 768px) and (max-width: 990px) {
     .history {
-        bottom: 10%;
+        bottom: 2%;
+    }
+    .history__p{
+        font-size: 2vw !important;
     }
 }

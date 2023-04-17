@@ -1,0 +1,203 @@
+<header>
+  <div class="container-fluid p-0 overflow-x-hidden">
+    <nav class="navbar navbar-expand-lg bg-*">
+      <div class="container-fluid">
+        <a class="logo navbar-brand fs-2" href="#">William's Coffee</a>
+        <button
+          class="company-toggler navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars me-2"></i>
+          <span>menu</span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="company-navbar navbar-nav align-items-start">
+            <li class="nav-item">
+              <a class="company__a nav-link" aria-current="page" href=" "
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="company__a nav-link" routerLink="/menu/"
+                >Menu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="company__a nav-link" routerLink="/locales">Locales</a>
+            </li>
+            <li class="nav-item">
+              <a class="company__a nav-link" routerLink="/empresa">Empresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="company__a nav-link" routerLink="/contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<div
+  id="carouselExampleSlidesOnly"
+  class="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-inner">
+    <div class="item carousel-item active">
+      <img
+        src="https://images.unsplash.com/photo-1442550528053-c431ecb55509?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="item carousel-item">
+      <img
+        src="https://images.unsplash.com/photo-1524350876685-274059332603?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="item carousel-item">
+      <img
+        src="https://images.unsplash.com/photo-1525445842399-d8a6bec24be2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+  </div>
+</div>
+<div class="contact-form-container">
+  <div class="contact-form">
+    <section
+      class="section-form"
+      style="
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../../../assets/coffee_background.jpg);
+        background-attachment: fixed;
+      "
+    >
+      <div class="form-container container h-100 position-absolute">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-xl-9">
+            <div class="card" style="background-color: #c49b63">
+              <div class="card-body">
+                <div class="row form__padding align-items-center pt-4 pb-3">
+                  <div class="form-h6-container col-md-3 ps-5">
+                    <h6 class="form__h6 mb-0">Nombre completo</h6>
+                  </div>
+                  <div class="col-md-9 pe-5">
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      placeholder=""
+                      style="font-family: 'Caveat', cursive;"
+                    />
+                  </div>
+                </div>
+                <hr class="mx-n3" />
+
+                <div class="row form__padding align-items-center pt-4 pb-3">
+                  <div class="form-h6-container col-md-3 ps-5">
+                    <h6 class="form__h6 mb-0">Teléfono</h6>
+                  </div>
+                  <div class="col-md-9 pe-5">
+                    <input type="tel" class="form-control form-control-lg" style="font-family: 'Caveat', cursive;"/>
+                  </div>
+                </div>
+
+                <hr class="mx-n3" />
+
+                <div class="row form__padding align-items-center py-3">
+                  <div class="form-h6-container col-md-3 ps-5">
+                    <h6 class="form__h6 mb-0">Correo Electrónico</h6>
+                  </div>
+                  <div class="col-md-9 pe-5">
+                    <input
+                      type="email"
+                      class="form-control form-control-lg"
+                      placeholder="Ejemplo@ejemplo.com"
+                      style="font-family: 'Caveat', cursive"
+                    />
+                  </div>
+                </div>
+
+                <hr class="mx-n3" />
+
+                <div class="row form__padding align-items-center py-3">
+                  <div class="form-h6-container col-md-3 ps-5">
+                    <h6 class="form__h6 mb-0">Deje su mensaje</h6>
+                  </div>
+                  <div class="col-md-9 pe-5">
+                    <textarea
+                      class="form-control"
+                      rows="3"
+                      placeholder=""
+                      style="font-family: 'Caveat', cursive;"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <hr class="mx-n3" />
+
+                <div class="button-container px-5 py-4">
+                  <button
+                    type="submit"
+                    class="button-text px-5 btn btn-secondary btn-lg rounded-0"
+                  >
+                    ENVIAR
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+<div class="contact-container vh-100">
+  <div class="contact rounded-1">
+    <div class="contact__background rounded-2">
+      <h1 class="contact__h1 pe-4 ps-4 pt-4">William's Coffee</h1>
+      <p class="contact__p-nro-1">Yerba Buena</p>
+      <p class="contact__p-nro-2">
+        Abierto de 8 a 20 hs. <br />1234-5678-9101 <br />
+        Gral. Lamadrid 2046
+      </p>
+    </div>
+    <div class="contact-img card-img">
+      <img
+        src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+        class="img-fluid"
+        alt=""
+      />
+    </div>
+  </div>
+</div>
+<div
+  class="footer-container container-fluid position-absolute d-flex align-items-center justify-content-between"
+>
+  <div class="footer__copyright row col-md-8 text-center">
+    <p class="footer__copyright-p text-light small">© Copyright 2023. WILLIAM'S COFFEE SRL. | by AFP</p>
+  </div>
+  <div class="footer__icons col-md-4">
+    <ul class="footer__ul d-flex">
+      <li class="list-unstyled m-2">
+        <a class="m-2 fs-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+      </li>
+      <li class="list-unstyled m-2">
+        <a class="m-2 fs-2" href="#"><i class="fa-brands fa-facebook"></i></a>
+      </li>
+      <li class="list-unstyled m-2">
+        <a class="m-2 fs-2" href="#"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+    </ul>
+  </div>
+</div>

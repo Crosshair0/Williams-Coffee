@@ -1,31 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 body {
     position: relative;
   }
+  .image{
+    height:40em; background-size:cover; width:auto;
+    background-image:url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=1060&t=st=1677616986~exp=1677617586~hmac=81e161489b3c829c04bdcf1517d495be0395f9140242266452e9530ee4832daf');
+    background-attachment: fixed;
+  }
   
-  .paperOverlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-repeat: repeat;
-    background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=1060&t=st=1677616986~exp=1677617586~hmac=81e161489b3c829c04bdcf1517d495be0395f9140242266452e9530ee4832daf");
-    mix-blend-mode: multiply;
-    pointer-events: none;
+  
+
+  @media (max-width:424px){
+    body{
+      margin-top: 13rem;
+  }
   }
 
   @media (max-width: 767px) {
     body{
-      margin-top: 8rem;
+      margin-top: 10rem;
+  }
+  }
+  @media (max-width: 767px) and (min-width: 425px){
+    body{
+      margin-top: 13.40rem;
   }
   }
 
   @media (min-width: 768px) and (max-width: 990px) {
     body{
-      margin-top: 8rem;
+      margin-top: 15rem;
+      
   }
   }
 

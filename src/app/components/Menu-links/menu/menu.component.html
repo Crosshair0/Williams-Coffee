@@ -1,0 +1,273 @@
+<header>
+  <div class="container-fluid p-0 overflow-x-hidden">
+    <nav class="navbar navbar-expand-lg bg-*">
+      <div class="container-fluid">
+        <a class="logo navbar-brand fs-2" href="#">William's Coffee</a>
+        <button
+          class="company-toggler navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars me-2"></i>
+          <span>menu</span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="company-navbar navbar-nav align-items-start">
+            <li class="nav-item">
+              <a class="company__a nav-link" aria-current="page" href=" "
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="company__a nav-link" routerLink="/menu/">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="company__a nav-link" routerLink="/locales">Locales</a>
+            </li>
+            <li class="nav-item">
+              <a class="company__a nav-link" routerLink="/empresa">Empresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="company__a nav-link" routerLink="/contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<div
+  id="carouselExampleSlidesOnly"
+  class="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-inner">
+    <div class="item carousel-item active">
+      <img
+        src="https://images.unsplash.com/photo-1442550528053-c431ecb55509?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="item carousel-item">
+      <img
+        src="https://images.unsplash.com/photo-1524350876685-274059332603?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="item carousel-item">
+      <img
+        src="https://images.unsplash.com/photo-1525445842399-d8a6bec24be2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+  </div>
+</div>
+  <div class="menu-container container-fluid">
+    <h1 class="menu__h1">Menú</h1>
+    <div class="menu-row row">
+      <div class="menu-drinks-container col">
+        <h1 class="menu-drinks__h1">Bebidas Calientes</h1>
+        <div class="table">
+          <div class="tableHeading">
+            <div class="tableRow">
+              <div class="tableHead">Bebidas</div>
+              <div class="tableHead">Descripción</div>
+              <div class="tableHead">Precio</div>
+            </div>
+          </div>
+          <div class="tableBody">
+            <div class="tableRow">
+              <div class="tableCell">Café Americano</div>
+              <div class="tableCell">Un café negro y fuerte hecho con espresso.</div>
+              <div class="tableCell">$2.50</div>
+            </div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Capuchino</div>
+            <div class="tableCell">Una bebida con espresso, leche vaporizada y espuma de leche. </div>
+            <div class="tableCell">$3.50</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Latte</div>
+            <div class="tableCell">Una bebida suave de espresso y leche vaporizada.</div>
+            <div class="tableCell">$3.50</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Mocha</div>
+            <div class="tableCell">Una bebida de chocolate caliente con espresso y leche vaporizada.</div>
+            <div class="tableCell">$4.00</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Té chai</div>
+            <div class="tableCell">Una bebida de té negro con especias como canela, jengibre y clavo.</div>
+            <div class="tableCell">$3.50</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Chocolate caliente</div>
+            <div class="tableCell">Una bebida cremosa de chocolate caliente con malvaviscos.</div>
+            <div class="tableCell">$4.00</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-drinks-container col">
+        <h1 class="menu-drinks__h1">Bebidas Frías</h1>
+        <div class="table">
+          <div class="tableHeading">
+            <div class="tableRow">
+              <div class="tableHead">Bebidas</div>
+              <div class="tableHead">Descripción</div>
+              <div class="tableHead">Precio</div>
+            </div>
+          </div>
+          <div class="tableBody">
+            <div class="tableRow">
+              <div class="tableCell">Café helado</div>
+              <div class="tableCell">Café frío hecho con hielo y leche.</div>
+              <div class="tableCell">$3.50</div>
+            </div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Té helado</div>
+            <div class="tableCell">Té frío hecho con hielo y jarabe de azúcar.</div>
+            <div class="tableCell">$3.00</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Limonada</div>
+            <div class="tableCell">Refresco de limón fresco con hielo.</div>
+            <div class="tableCell">$3.00</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Agua fresca de temporada</div>
+            <div class="tableCell">Una bebida refrescante de frutas frescas de temporada.</div>
+            <div class="tableCell">$2.50</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Refresco</div>
+            <div class="tableCell">Una selección de refrescos de cola, lima-limón y naranja.</div>
+            <div class="tableCell">$2.50</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Smoothie de frutas</div>
+            <div class="tableCell">Una bebida fría de frutas frescas y yogur.</div>
+            <div class="tableCell">$4.50</div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100"></div>
+      <div class="menu-drinks-container col">
+        <h1 class="menu-drinks__h1">Postres</h1>
+        <div class="table">
+          <div class="tableHeading">
+            <div class="tableRow">
+              <div class="tableHead">Postre</div>
+              <div class="tableHead">Descripcion</div>
+              <div class="tableHead">Precio</div>
+            </div>
+          </div>
+          <div class="tableBody">
+            <div class="tableRow">
+              <div class="tableCell">Cheesecake</div>
+              <div class="tableCell">Un postre cremoso y dulce hecho con queso crema y galleta.</div>
+              <div class="tableCell">$5.00</div>
+            </div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Flan</div>
+            <div class="tableCell">Un postre de huevo dulce y cremoso.</div>
+            <div class="tableCell">$3.50</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Brownie</div>
+            <div class="tableCell">Un postre de chocolate denso y dulce.</div>
+            <div class="tableCell">$3.50</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Galleta de chocolate</div>
+            <div class="tableCell">Una galleta suave y dulce con trozos de chocolate.</div>
+            <div class="tableCell">$2.00</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Muffin de arándanos</div>
+            <div class="tableCell">Un muffin suave y esponjoso con trozos de arándanos frescos.</div>
+            <div class="tableCell">$3.00</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Tarta de frutas</div>
+            <div class="tableCell">Una tarta dulce hecha con frutas frescas de temporada.</div>
+            <div class="tableCell">$4.50</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-drinks-container col">
+        <h1 class="menu-drinks__h1">Comidas</h1>
+        <div class="table">
+          <div class="tableHeading">
+            <div class="tableRow">
+              <div class="tableHead">Comidas</div>
+              <div class="tableHead">Descripcion</div>
+              <div class="tableHead">Precio</div>
+            </div>
+          </div>
+          <div class="tableBody">
+            <div class="tableRow">
+              <div class="tableCell">Bagel con salmón y queso crema</div>
+              <div class="tableCell">Un bagel tostado con salmón ahumado y queso crema.</div>
+              <div class="tableCell">$7.50</div>
+            </div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Sandwich de jamón y queso</div>
+            <div class="tableCell">Un clásico sándwich de jamón y queso con lechuga y tomate.</div>
+            <div class="tableCell">$6.50</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Ensalada César con pollo</div>
+            <div class="tableCell">Una ensalada clásica de lechuga romana, pollo a la parrilla, aderezo César y crutones.</div>
+            <div class="tableCell">$8.00</div>
+          </div>
+          <div class="tableRow">
+            <div class="tableCell">Sándwich de pavo</div>
+            <div class="tableCell"> Pan integral con pechuga de pavo, queso cheddar, tomate, lechuga y mostaza.</div>
+            <div class="tableCell">$7.50</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer
+    class="footer-container container-fluid position-absolute d-flex align-items-center justify-content-between sticky-bottom"
+    style="position: fixed; bottom: 0px"
+  >
+    <div class="footer__copyright row col-md-8 text-center">
+      <p class="footer__copyright-p text-light small">
+        © Copyright 2023. WILLIAM'S COFFEE SRL. | by AFP
+      </p>
+    </div>
+    <div class="footer__icons col-md-4">
+      <ul class="footer__ul d-flex">
+        <li class="list-unstyled m-2">
+          <a class="m-2 fs-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li class="list-unstyled m-2">
+          <a class="m-2 fs-2" href="#"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li class="list-unstyled m-2">
+          <a class="m-2 fs-2" href="#"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+

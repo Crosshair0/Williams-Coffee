@@ -7,10 +7,13 @@ header{
   transition: 0.6s;
   padding: 40px 100px;
   z-index: 100000;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.10) ;
   -webkit-transition: 0.6s;
   -moz-transition: 0.6s;
   -ms-transition: 0.6s;
   -o-transition: 0.6s;
+  
 }
 header.sticky {
   padding: 5px 100px;
@@ -61,10 +64,12 @@ header.sticky a{
 header.sticky{
   color: #000;
 }
+.company__a{
+  font-size: 1.3vw;
+}
 .carousel-company {
   height: 30vh;
   top: 25rem;
-  background: rgba(0, 0, 0, 0.6);
 }
 
 .company__name {
@@ -73,13 +78,12 @@ header.sticky{
   font-size: 500%;
 }
 .company__slogan {
-  font-size: 400%;
+  font-size: 500%;
   font-family: "Tangerine", cursive;
   color: #d8870c;
 }
 
 .company-local {
-  background: rgba(0, 0, 0, 0.6);
   top: 25rem;
   height: 35vh;
 }
@@ -94,18 +98,19 @@ header.sticky{
 }
 
 .company-goals {
-  background: rgba(0, 0, 0, 0.6);
   top: 25rem;
   height: 40vh;
+  left: 16rem;
 }
 
 .company-goals__h5-span-1 {
   font-size: 300%;
   color: #d8870c;
-  font-family: "Tangerine", cursive;
+  font-family: "Tangerine", cursive; 
+  text-shadow: #120f0f 2px;
 }
 .company-goals__p {
-  font-weight: 80%;
+  font-weight: 50% !important;
 }
 
 /**Movil SM**/
@@ -143,7 +148,7 @@ header.sticky{
   .carousel-company {
     width: auto !important;
     height: 22vw !important;
-    top: 50%;
+    top: 35%;
   }
   .company__name {
     font-size: 3.50vw !important;
@@ -155,7 +160,7 @@ header.sticky{
   .company-local {
     width: auto;
     height: 22vw !important;
-    top: 45% !important;
+    top: 30% !important;
   }
   .company-local__h5 {
     font-size: 2.2vw !important;
@@ -165,33 +170,37 @@ header.sticky{
   }
   .company-local__p {
     font-size: 1.7vw !important;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   .company-goals {
-    width: auto;
+    width: 45%;
     height: 30vw !important;
-    top: 45%;
+    top: 25%;
+    left: 27%;
     padding: 0 !important;
+    margin: 0 !important;
   }
   .company-goals__h5-span-1 {
-    font-size: 5.5vw !important;
+    font-size: 3.5vw !important;;
   }
   .company-goals__h5-span-2 {
     font-size: 2.5vw !important;
   }
   .company-goals__p {
-    font-size: 2.7vw !important;
+    font-size: 2.2vw !important;
     margin: 0 !important;
   }
   .carousel-button-left{
-    top: 35%;
+    top: 10%;
   }
   .carousel-button-right{
-    top: 35%;
+    top: 10%;
   }
   
 }
 
-/**Movil lD - MD**/
+/**Movil LG - MD**/
 
 @media (max-width: 767px) and (min-width: 425px){
 
@@ -223,8 +232,11 @@ header.sticky{
   .carousel-company {
     width: auto;
     height: 15vw;
-    top: 55%;
+    top: 40%;
     padding-top: 5px !important;
+  }
+  .company__a{
+    font-size: 3.50vw !important;
   }
   .company__name {
     font-size: 4vw;
@@ -237,7 +249,7 @@ header.sticky{
   .company-local {
     width: auto;
     height: 16vw;
-    top: 50%;
+    top: 35%;
   }
   .company-local__h5 {
     font-size: 1.5vw;
@@ -249,9 +261,10 @@ header.sticky{
     font-size: 1.5vw !important;
   }
   .company-goals {
-    width: auto;
+    width: 45%;
     height: 23vw;
-    top: 50%;
+    top: 30%;
+    left: 28%;
   }
   .company-goals__h5-span-1 {
     font-size: 4.5vw !important;
@@ -263,10 +276,10 @@ header.sticky{
     font-size: 1.7vw !important;
   }
   .carousel-button-left{
-    top: 35%;
+    top: 5%;
   }
   .carousel-button-right{
-    top: 35%;
+    top: 5%;
   }
 }
 
@@ -294,10 +307,13 @@ header.sticky{
   header {
     background-color: black;
   }
+  .company__a{
+    font-size: 2.50vw !important;
+  }
   .carousel-company {
     width: auto;
     height: 15vw;
-    top: 55%;
+    top: 40%;
     padding-top: 5px !important;
   }
   .company__name {
@@ -310,7 +326,7 @@ header.sticky{
   .company-local {
     width: auto;
     height: 22vh;
-    top: 45%;
+    top: 40%;
   }
   
   .header-button {
@@ -325,16 +341,17 @@ header.sticky{
   .company-goals {
     width: auto;
     height: 22vh;
-    top: 45%;
+    top: 32%;
+    left: 16%;
   }
   .company-goals__h5-span-1 {
-    font-size: 35px !important;
+    font-size: 30px !important;
   }
   .company-goals__h5-span-2 {
     font-size: 15px !important;
   }
   .company-goals__p {
-    font-size: 15px !important;
+    font-size: 10px !important;
   }
 
   .header-carousel {
@@ -343,6 +360,9 @@ header.sticky{
 }
 /**Tablet & Laptops**/
 @media (min-width: 990px) and (max-width: 1249px) {
+  .company__a{
+    font-size: 2.05vw !important;
+  }
   .carousel-company {
     width: auto;
     height: 25vh;

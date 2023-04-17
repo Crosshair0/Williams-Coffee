@@ -4,6 +4,7 @@
     position: absolute;
     bottom: -50%;
     background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=1060&t=st=1677616986~exp=1677617586~hmac=81e161489b3c829c04bdcf1517d495be0395f9140242266452e9530ee4832daf");
+    background-attachment:fixed ;
 }
 .location{
     width: 100%;;
@@ -44,13 +45,13 @@
         left: 20% !important;
        }
        .location__h1{
-        font-size: 3vw;
+        font-size: 6vw;
        }
        .location__span-1{
         font-size: 140%;
        }
        .location__p{
-       font-size: 2.1vw !important;
+       font-size: 3.2vw !important;
        }
        .location__img{
         width: 100%;
@@ -77,7 +78,7 @@
     font-size: 140%;
    }
    .location__p{
-   font-size: 2.1vw !important;
+   font-size: 100% !important;
    }
    .location__img{
     width: 100%;
